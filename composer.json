@@ -1,0 +1,19 @@
+{
+    "name": "alvinnguyen/salesrulefix",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"Salesrule Fix",
+    "authors":[
+        {
+            "name":"Alvin Nguyen",
+            "email":"alvin@alvinnguyen.net"
+
+        }
+    ],
+    "extra": {
+        "map": [
+            ["app/code/community/Wecode/*", "app/code/community/Wecode"],
+            ["app/etc/modules/*", "app/etc/modules"]
+        ]
+    }
+}
